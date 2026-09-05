@@ -53,6 +53,9 @@ export default function HomeScreen() {
             title="Fresh start"
             hint={<ThemedText type="code">npm run reset-project</ThemedText>}
           />
+          <HintRow
+          title='Something'
+          hint={<ThemedText type='code'>npm huesos</ThemedText>}/>
         </ThemedView>
 
         {Platform.OS === 'web' && <WebBadge />}
