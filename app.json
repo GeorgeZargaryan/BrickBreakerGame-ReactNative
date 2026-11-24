@@ -18,7 +18,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.miaskotisteam.brickbreaker"
+      "package": "com.miaskotisteam.brickbreaker",
+      "backgroundColor": "#0B0A12"
     },
     "web": {
       "output": "static",
@@ -33,7 +34,10 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-image",
+      ["expo-secure-store", { "faceIDPermission": false }],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -44,7 +48,7 @@
       "eas": {
         "projectId": "83e675a8-bd83-409f-9e80-c2d0d9ea0247"
       }
-    },
+    },    
     "owner": "miaskotiss-team"
   }
 }

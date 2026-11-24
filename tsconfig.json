@@ -16,5 +16,10 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/components/game/GameCanvas1.tsx",
+    "src/components/game/GameCanvas2.tsx"
   ]
 }
